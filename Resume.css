@@ -1,13 +1,19 @@
 container{
-    width: 1000px;
-    height: 2000px;
+    width: 1000px auto;
+    height: 2000px auto;
     margin: 0px auto;
     padding: 0px;
 }
 
+.name{
+    display: flex;
+    place-content: center;
+    width: 1000px auto;
+}
+
 .nav_bar ul{
     list-style: none;
-    width: 500px;
+    width: 500jpx auto;
 }
 
 .nav_bar ul li{
@@ -17,13 +23,12 @@ container{
 
 div{
     background-color: green;
-    padding-left: 300px;
 }
 
-.intro,.name{
-    width: 500px;
+.intro{
+    width: 500px auto;
 }
 
 .nav_bar{
-    width: 500px;
+    width: 500px auto;
 }
