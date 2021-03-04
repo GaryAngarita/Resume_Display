@@ -51,6 +51,18 @@ div{
     width: 500px auto;
     text-align: center;
 }
-/* p{
-    text-align: center;
-} */
+
+.skills{
+    display: flex;
+    place-content: center;
+}
+.skills1{
+    display: inline-block;
+    width: 250px;
+    place-content: center;
+    height: fit-content;
+}
+.skills li{
+    padding-bottom: 5px;
+    font-size:medium;
+}
