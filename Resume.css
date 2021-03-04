@@ -1,8 +1,9 @@
-container{
-    width: 1000px auto;
-    height: 2000px auto;
+#container{
+    /* width: 1000px auto;
+    height: 2000px auto; */
     margin: 0px auto;
     padding: 0px;
+    background-color: skyblue;
 }
 
 .name{
@@ -15,7 +16,10 @@ container{
 h1{
     font-size: 50px;
 }
-
+h2{
+    margin: 5px;
+}
+/* May put in less margin for h2 */
 .address1, .address2{
     display: flex;
     place-content: center;
