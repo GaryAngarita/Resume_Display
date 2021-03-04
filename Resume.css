@@ -9,26 +9,48 @@ container{
     display: flex;
     place-content: center;
     width: 1000px auto;
+    align-items: center;
+    height: 75px auto;
+}
+h1{
+    font-size: 50px;
 }
 
+.address1, .address2{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    width: 1000px auto;
+    height: 25px;
+}
+
+.phone{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 25px;
+}
 .nav_bar ul{
+    display: flex;
+    place-content: center;
     list-style: none;
-    width: 500jpx auto;
+    width: 500px auto;
+    height: fit-content;
 }
 
 .nav_bar ul li{
     display: inline;
-    padding: 0px 10px 0px 10px;
+    padding-right: 20px;
 }
 
 div{
     background-color: green;
 }
 
-.intro{
+.intro p{
     width: 500px auto;
+    text-align: center;
 }
-
-.nav_bar{
-    width: 500px auto;
-}
+/* p{
+    text-align: center;
+} */
