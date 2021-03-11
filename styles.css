@@ -6,6 +6,11 @@
     background-color: skyblue;
 }
 
+.col-9, .col-3{
+    padding: 3px 0px 3px 0px;
+    border: 1px solid black;
+}
+
 .name{
     display: flex;
     place-content: center;
@@ -16,6 +21,11 @@
 h1{
     font-size: 50px;
 }
+
+svg{
+    color: black;
+}
+
 h2{
     margin: 5px;
 }
