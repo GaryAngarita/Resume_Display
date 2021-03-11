@@ -1,4 +1,7 @@
 #container{
+    background-image: url(FB_IMG_1507835697822~2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* width: 1000px auto;
     height: 2000px auto; */
     margin: 0px auto;
@@ -79,4 +82,8 @@ div{
 .skills li{
     padding-bottom: 5px;
     font-size:medium;
+}
+
+.additional ul{
+    list-style-type: square;
 }
