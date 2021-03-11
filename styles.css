@@ -2,6 +2,7 @@
     background-image: url(FB_IMG_1507835697822~2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode:soft-light;
     /* width: 1000px auto;
     height: 2000px auto; */
     margin: 0px auto;
@@ -61,7 +62,7 @@ h2{
 }
 
 div{
-    background-color: green;
+    /* background-color: green; */
 }
 
 .intro p{
