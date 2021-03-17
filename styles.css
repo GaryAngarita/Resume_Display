@@ -62,7 +62,7 @@ h2{
 }
 
 div{
-    /* background-color: green; */
+    background-color: green;
 }
 
 .intro p{
@@ -84,7 +84,9 @@ div{
     padding-bottom: 5px;
     font-size:medium;
 }
-
+.date, .title{
+    font-weight: bold;
+}
 .additional ul{
     list-style-type: square;
 }
