@@ -73,6 +73,11 @@ div{
 .skills{
     display: flex;
     place-content: center;
+
+}
+.skills ul{
+    /* padding-bottom: 0px; */
+    margin: 0px;
 }
 .skills1{
     display: inline-block;

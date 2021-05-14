@@ -12,7 +12,7 @@
     <title>Resume Display</title>
     <script>
         $(document).ready(function () {
-            $('.experience, .row, .employment').hide();
+            $('.experience, .row, .employment, .additional').hide();
 
             $('#exp').click(function () {
                 $('.experience').toggle();
@@ -22,6 +22,9 @@
             })
             $('#edu').click(function () {
                 $('.row').toggle();
+            })
+            $('#add').click(function () {
+                $('.additional').toggle();
             })
 
         })
@@ -37,7 +40,7 @@
             <!-- <h1>{{name}}</h1> -->
         </div>
         <div class="address1">
-            <p>13364 Beach Blvd Unit 314 </p>
+            <p><a href=" http://maps.google.com/?q=13364 Beach Blvd" target="_blank">13364 Beach Blvd Unit 314</a></p>
             <!-- <p>{{street_address}}</p> -->
         </div>
         <div class="address2">
