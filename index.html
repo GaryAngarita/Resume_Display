@@ -37,15 +37,15 @@
     <div id="container">
         <div class="name">
             <h1>Gary Angarita</h1>
-            <!-- <h1>{{name}}</h1> -->
+            <!-- <h1>{{user.name}}</h1> -->
         </div>
         <div class="address1">
             <p><a href=" http://maps.google.com/?q=13364 Beach Blvd" target="_blank">13364 Beach Blvd Unit 314</a></p>
-            <!-- <p>{{street_address}}</p> -->
+            <!-- <p><a href=" http://maps.google.com/?q={{user.street_address}}" target="_blank"> {{user.street_address}} </a></p> -->
         </div>
         <div class="address2">
             <p> Jacksonville, Fl 32224</p>
-            <!-- {{city_state_zip}}</p> -->
+            <!-- {{user.city_state_zip}}</p> -->
         </div>
         <div class="phone">
             <p>210-254-4802</p>
@@ -82,21 +82,19 @@
             <p>Military Veteran with experience in leadership, programming, teaching, and public speaking. Looking
                 to incorporate skills and abilities acquired from years of fast-paced military operations into
                 ever-evolving technological, social, and cultural environments.</p>
-                <!-- <p>{{Objective}}</p> -->
+                <!-- <p>{{user.objective}}</p> -->
         </div>
         <h2>Skills:</h2>
-        <!-- <ul>
-            {% for skill in skills %} -->
         <div class="skills">
             <div class="skills1">
                 <ul>
+                    <!-- {% for skill in skills %} -->
                     <li>Technical Proficiency</li>
                     <!-- <li>{{skill}}</li> -->
                     <li>Personnel Management</li>
                     <li>Training Management</li>
+                    <!-- {% endfor %} -->
                 </ul>
-                <!-- {% endfor %} -->
-        <!-- </ul> -->
         <!-- Repeat for as many skills as necessary -->
             </div>
             <div class="skills1">
@@ -121,6 +119,7 @@
                 <li><span class="title">Math Teacher</span> - Developed consistent lesson plans for
                     Algebra, Pre-algebra, and lower level mathematics while maintaining
                     academic and behavior records for over 200 students</li>
+                    <!-- {{ experience }} -->
                 <li><span class="title">Pilot-in-Command/Chief Warrant Officer/Training Officer</span> - Operated $38
                     million aircraft in National Airspace under tactical and non-tactical
                     conditions. Organized and briefed air movements with mixed airframes.
@@ -129,6 +128,7 @@
                 <li><span class="title">Squad Leader</span> - Served as first-line supervisor to 16 Soldiers 
                     while in support of chemical operations. Trained Soldiers on basic marksmanship, customs & 
                     courtesies, and discipline.</li>
+                    <!-- {% endfor %} -->
             </ul>
         </div>
         <h2 id="emp">Employment</h2>
@@ -139,6 +139,7 @@
                     Teacher. Amidst pandemic, filled vacancies left by teachers unwilling to return to
                     hazardous environments. Taught all subjects but maintained focus on math and science
                     while interacting with.</li>
+                    <!-- {{ employment }} -->
                 <li><span class="date">Mar 2019 - Jun 2020</span> - <span class="job_title">Duval County Public
                         Schools</span>
                     Middle School Math/Science Teacher. Created lesson plans, coordinated with department
@@ -147,6 +148,7 @@
                     as Pilot, Tactical Operations Officer, Squad Leader, and Physical Training Officer. Taught
                     classes to groups ranging from 20-100 Soldiers in topics ranging from aerodynamics and flight
                     operations to aircraft software and flight tactics.</li>
+                    <!-- {% endfor %} -->
             </ul>
         </div>
         <h2 id="edu">Education</h2>
@@ -168,10 +170,12 @@
             <ul>
                 <!-- {% for additional in additionals %} -->
                 <li>Graduated Bachelor's with 3.83 GPA</li>
+                <!-- {{ additional }} -->
                 <li>Heavy public speaking experience</li>
                 <li>Have held TS security clearance</li>
                 <li>Willing to relocate</li>
                 <li>Fluent in Spanish</li>
+                <!-- {% endfor %} -->
             </ul>
 
         </div>
